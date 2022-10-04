@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/food_logo"></ImageView>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yummies !!"
+                        android:fontFamily="@font/itim"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="40dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our Menu"
+                        android:fontFamily="@font/itim"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="40dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/noodles_logo"></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spicy Noodles"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 300 onwards"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/pasta_img"></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shrimp Pasta"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 250 onwards"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/veg_img"></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vegetable Curry"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 800 onwards"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/salad_img"></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mixed Salad"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 199 onwards"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/chicken_salad_img"></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Pasta Salad"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 349 onwards"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text"
+                    android:elevation="10dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/chicken_noodles"></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Noodles"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹ 149 onwards"
+                        android:fontFamily="@font/itim"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

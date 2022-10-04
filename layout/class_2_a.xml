@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+
+</LinearLayout>
+    </HorizontalScrollView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/pulsar_1"></ImageView>
+
+        <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+
+        <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+   <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar_1"
+        android:layout_margin="10dp"
+        ></ImageView>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pulsar"
+        android:layout_margin="10dp"
+        ></ImageView>
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

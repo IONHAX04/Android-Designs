@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pinterest_logo"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Pinterest"
+        android:layout_below="@+id/logo"
+        android:fontFamily="@font/lobster"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/heading"
+        android:gravity="center"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@+id/heading"
+        android:fontFamily="@font/lobster"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/email"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/password"
+        android:elevation="10dp"
+        android:background="@drawable/edit_text"
+        android:fontFamily="@font/lobster"
+        android:hint="Email"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/email"
+        android:fontFamily="@font/lobster"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/password"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/pass_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_id"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/password"
+        android:elevation="10dp"
+        android:background="@drawable/edit_text"
+        android:fontFamily="@font/lobster"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/for_pass"
+        android:text="Forgot your password?"
+        android:textSize="20dp"
+        android:fontFamily="@font/lobster"
+        android:layout_below="@id/password"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        ></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/for_pass"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_btn"
+        android:fontFamily="@font/lobster"
+        android:gravity="center"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"></androidx.appcompat.widget.AppCompatButton>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:id="@+id/or"
+        android:layout_below="@id/login"
+        android:gravity="center"
+        android:fontFamily="@font/lobster"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        ></TextView>
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/or"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/login_btn"
+        android:fontFamily="@font/lobster"
+        android:text="Continue with Facebook"
+        android:textAllCaps="false"
+        android:textSize="20dp"></Button>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Continue with Google"
+        android:id="@+id/google"
+        android:layout_below="@id/fb"
+        android:layout_margin="5dp"
+        android:background="@drawable/login_btn"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/lobster"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        ></Button>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="By continuing, you agree to Pinterest's Terms of Service, Privacy policy"
+        android:layout_below="@id/google"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/lobster"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>

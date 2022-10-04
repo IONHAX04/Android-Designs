@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/simple">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/reg_form"
+        android:fontFamily="@font/kalam"
+        android:gravity="center"
+        android:text="Workshop Registration"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/sub_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:fontFamily="@font/kalam"
+        android:gravity="center"
+        android:text="Register new while seats are available"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/reg_form"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub_heading"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_heading"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/reg_form"
+            android:fontFamily="@font/kalam"
+            android:gravity="center"
+            android:text="Robotics Process Automation"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personal"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/kalam"
+            android:text="Name "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/fn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/country"
+            android:background="@drawable/edit_text"
+            android:elevation="5dp"
+            android:fontFamily="@font/kalam"
+            android:hint="Title"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="20dp"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln"
+        android:layout_below="@+id/personal"
+        android:layout_toRightOf="@id/fn"
+        android:hint="Last Name"
+        android:fontFamily="@font/kalam"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        ></EditText>
+
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fn"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/kalam"
+        android:text="Address "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/add1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@id/country"
+            android:background="@drawable/edit_text"
+            android:elevation="5dp"
+            android:fontFamily="@font/kalam"
+            android:hint="Address Line 1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_margin="10dp"
+            android:textSize="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add1"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edit_text"
+            android:elevation="5dp"
+            android:fontFamily="@font/kalam"
+            android:gravity="center"
+            android:hint="City"
+            android:textSize="20dp"></EditText>
+
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/state"
+        android:layout_below="@+id/add1"
+        android:layout_toRightOf="@id/country"
+        android:hint="State"
+        android:fontFamily="@font/kalam"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:gravity="center"
+        ></EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/code"
+        android:layout_below="@+id/add1"
+        android:layout_toRightOf="@id/state"
+        android:hint="Zip Code"
+        android:fontFamily="@font/kalam"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:gravity="center"
+        ></EditText>
+
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/code"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/kalam"
+            android:text="Country   "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/country_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/country"
+            android:background="@drawable/edit_text"
+            android:elevation="5dp"
+            android:fontFamily="@font/kalam"
+            android:hint="Choose your country"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/ph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/country_1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/kalam"
+            android:text="Phone "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ph_1"
+        android:layout_below="@+id/country_1"
+        android:layout_toRightOf="@id/country"
+        android:hint="Enter valid mobile number"
+        android:fontFamily="@font/kalam"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        ></EditText>
+
+        <TextView
+            android:id="@+id/em"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ph"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/kalam"
+            android:text="Email ID"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/em_1"
+            android:layout_below="@+id/ph_1"
+            android:layout_toRightOf="@id/country"
+            android:hint="Enter valid mobile number"
+            android:fontFamily="@font/kalam"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text"
+            android:elevation="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            ></EditText>
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/em"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/kalam"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass_1"
+            android:layout_below="@+id/em_1"
+            android:layout_toRightOf="@id/country"
+            android:hint="Enter valid mobile number"
+            android:fontFamily="@font/kalam"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text"
+            android:elevation="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College "
+        android:id="@+id/edu"
+        android:layout_below="@id/pass"
+        android:fontFamily="@font/kalam"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edu_1"
+        android:layout_below="@+id/pass"
+        android:layout_toRightOf="@id/country"
+        android:hint="College Name"
+        android:fontFamily="@font/kalam"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text"
+        android:elevation="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        ></EditText>
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:id="@+id/btn"
+            android:layout_below="@id/edu"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/kalam"
+            android:textSize="20dp"></Button>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

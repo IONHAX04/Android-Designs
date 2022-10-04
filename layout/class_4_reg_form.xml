@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration Form"
+            android:fontFamily="@font/itim"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_margin="10dp"
+            android:id="@+id/h1"
+            android:gravity="center"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/tab1"
+        android:layout_below="@+id/h1"
+        android:fontFamily="@font/itim"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:gravity="center"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tab1a"
+        android:layout_below="@+id/h1"
+        android:layout_toRightOf="@+id/tab3"
+        android:background="@drawable/edit_text"
+        android:elevation="10dp"
+        android:hint="Enter Your Name"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/itim"
+        android:padding="10dp"></EditText>
+
+
+    <TextView
+        android:id="@+id/tab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab1"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:text="User Id"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tab2a"
+        android:layout_below="@+id/tab1"
+        android:layout_toRightOf="@+id/tab3"
+        android:background="@drawable/edit_text"
+        android:elevation="10dp"
+        android:hint="Enter Your ID"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/itim"
+        android:padding="10dp"></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/tab3"
+        android:layout_below="@+id/tab2"
+        android:fontFamily="@font/itim"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:gravity="center"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/tab3a"
+        android:layout_below="@+id/tab2"
+        android:layout_toRightOf="@+id/tab3"
+        android:background="@drawable/edit_text"
+        android:elevation="10dp"
+        android:hint="Enter Your Password"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/itim"
+        android:padding="10dp"></EditText>
+
+
+</RelativeLayout>

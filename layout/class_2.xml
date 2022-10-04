@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        android:hint="Enter your number"
+        android:elevation="20dp"
+
+        ></EditText>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="login"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

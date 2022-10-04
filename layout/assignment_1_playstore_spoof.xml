@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Search for apps and games"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/edu_vic"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        ></EditText>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/edu_vic"
+                android:padding="10dp"
+                android:text="For You"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:elevation="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/edu_vic"
+                android:padding="10dp"
+                android:text="Top charts"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/edu_vic"
+                android:padding="10dp"
+                android:text="Kids"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/edu_vic"
+                android:padding="10dp"
+                android:text="Events"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/edu_vic"
+                android:padding="10dp"
+                android:text="Premium"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/edu_vic"
+                android:padding="10dp"
+                android:text="Categories"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For You"
+                android:textStyle="bold"
+                android:fontFamily="@font/edu_vic"
+                android:textSize="25dp"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+
+                ></TextView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text"
+                android:elevation="10dp">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:src="@drawable/zombie_cover"
+                ></ImageView>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:gravity="center">
+                <ImageView
+                   android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/zombie_logo"
+                   android:layout_margin="10dp"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zombie Catchers - Undead - 76 MB"
+                    android:fontFamily="@font/edu_vic"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+               </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text"
+                android:elevation="10dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/angry_birds_cover"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/angry_birds_logo"
+                        android:layout_margin="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Angry Birds - Puzzle - 231 MB"
+                        android:fontFamily="@font/edu_vic"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text"
+                android:elevation="10dp">
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/cut_my_rope_cover"
+                    ></ImageView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/cut_the_rope_logo"
+                        android:layout_margin="10dp"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cut The Rope - Casual - 50 MB"
+                        android:fontFamily="@font/edu_vic"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top Charts"
+                android:textStyle="bold"
+                android:fontFamily="@font/edu_vic"
+                android:textSize="25dp"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/cut_the_rope_logo"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ludo King "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/tempe_run_logo"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Temple Run"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/free_fire_logo"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Garena Free Fire"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/shoot_bubble"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Shoot Bubble - Pop"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/candy_crush_logo"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Candy Crush Saga"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/carrom_logo"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Carrom Pool : Disc"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. "
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/subway_logo"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Subway Surfers"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/edu_vic"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

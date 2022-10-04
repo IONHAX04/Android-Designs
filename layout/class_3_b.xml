@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration form"
+        android:fontFamily="@font/edu_vic"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/edu_vic"
+            android:text="Name "
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/edu_vic"
+            android:hint="Enter your name"
+            android:padding="10dp"
+            android:textColorHint="@color/black"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:fontFamily="@font/edu_vic"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            ></TextView>
+
+        <EditText
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/edu_vic"
+            android:hint="Enter your mobile number"
+            android:padding="10dp"
+            android:textColorHint="@color/black"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:fontFamily="@font/edu_vic"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            ></TextView>
+
+        <EditText
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your college"
+            android:background="@drawable/edit_text"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/edu_vic"
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/edu_vic"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/edu_vic"
+            android:hint="Enter your email"
+            android:padding="10dp"
+            android:textColorHint="@color/black"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/edu_vic"
+            android:text="Password"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="@font/edu_vic"
+            android:hint="Enter your password"
+            android:padding="10dp"
+            android:textColorHint="@color/black"></EditText>
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="login"
+        android:background="@drawable/edit_text"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        ></androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+    </LinearLayout>

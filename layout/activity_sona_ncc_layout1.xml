@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sona_ncc_layout1"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/sona_layout_logo1"
+        android:src="@drawable/logo_layout1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SONA NCC"
+        android:fontFamily="@font/itim"
+        android:layout_below="@id/sona_layout_logo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"></TextView>
+
+
+</RelativeLayout>
